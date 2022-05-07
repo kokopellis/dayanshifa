@@ -30,13 +30,13 @@ def display():
     for i in range(6):
         yao = stack.pop()
         if yao == 6:
-            print("6 -- 一")
+            print(" 6    --    一")
         elif yao == 7:
-            print("7 一 一")
+            print(" 7    一    一")
         elif yao == 8:
-            print("8 -- --")
+            print(" 8    --    --")
         else:
-            print("9 一 --")
+            print(" 9    一    --")
 
 
 
