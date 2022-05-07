@@ -17,9 +17,7 @@ def yan():
             right -= 4
         else: 
             right -= right % 4
-        #right = right - (right % 4 == 0) ? 4 : right % 4
         shi = left + right
-    #print("shi = " + str(shi) + " , shi / 4 = " + str(shi / 4) + " , shi % 4 = " + str(shi % 4))
     return shi / 4
 
 
